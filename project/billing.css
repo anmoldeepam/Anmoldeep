@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(grocery.3.jpg);
+  background-size: cover;
+  background-position:center;
+  background:;
+}
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%,-50%);
+}
+
+.details{
+  color: #0000ff;
+}
+
+.button{
+  color:  #006400;
+  font-family: "proxima nova";
+  font-weight: 80;
+  font-size: 16px;
+  text-decoration-color: #006400;
+  text-align: center;
+  border: solid 2px #00ffff;
+  border-radius: 50px;
+  padding: 10px 80px;
+  -webkit-transition-duration:200ms;
+  transition-duration: 200ms;
+  text-decoration: #00fa9a;
+}
+
+.button:hover{
+  background-color: #006400;
+  color: #fff;
+}
